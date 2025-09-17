@@ -1,0 +1,20 @@
+Warning! Your git working tree is dirty.
+It's recommended to commit all your changes before proceeding, so you can revert the changes made by this command if necessary.
+
+[?25l[2K[1G[36m?[39m [1mWould you like to proceed?[22m [90m»[39m [90m(Y/n)[39m[2K[1G[2K[1G[32m√[39m [1mWould you like to proceed?[22m [90m...[39m yes
+[?25h
+[?25l[2K[1G[36m?[39m [1mYou are already using the latest SDK version. Do you want to run the update anyways? This may be useful to ensure that all of your packages are set to the correct version.[22m [90m»[39m [90m(Y/n)[39m[2K[1G[2K[1G[32m√[39m [1mYou are already using the latest SDK version. Do you want to run the update anyways? This may be useful to ensure that all of your packages are set to the correct version.[22m [90m...[39m yes
+[?25h
+
+
+👏 Automated upgrade steps complete.
+...but this doesn't mean everything is done yet!
+
+✅ The following packages were updated:
+expo-linear-gradient, expo-status-bar, expo-system-ui, react, react-native, @babel/core, expo
+
+🚨 The following packages were not updated. You should check the READMEs for those repositories to determine what version is compatible with your new set of packages:
+react-native-edge-to-edge, @react-native-community/cli
+
+Please refer to the release notes for information on any further required steps to update and information about breaking changes:
+https://expo.dev/changelog/sdk-54
