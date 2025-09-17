@@ -28,9 +28,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "1db06aac-d275-4ad5-b7eb-c069b17b1120"
+        "projectId": "1ccad9f0-9cea-4c79-838e-bda6b0c5af8e"
       }
     },
-    "owner": "majeebikash"
-  }
+    "admin": "BoxFight",
+    "owner": "boxfight"  }
 }
