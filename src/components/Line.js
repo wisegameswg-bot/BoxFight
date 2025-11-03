@@ -3,12 +3,7 @@ import { View } from "react-native";
 
 export default function Line({ line, spacingX, spacingY, edgePad = 0 }) {
   const isHorizontal = line.dir === "H";
-  const color = line.owner === "P1" ? "blue" : line.owner === "P2" ? "red" : "transparent";
-
-  // Positioning:
-  // horizontal H(row,col) => left = edgePad + col*spacingX, top = edgePad + row*spacingY - (thickness/2)
-  // vertical V(row,col) => left = edgePad + col*spacingX - (thickness/2), top = edgePad + row*spacingY
-
+  const color = line.owner === "P" ? "blue" : line.owner === "C" ? "red" : "transparent";
   const thickness = 4;
 
   const style = isHorizontal

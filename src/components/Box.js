@@ -19,7 +19,7 @@ export default function Box({ box, spacingX, spacingY, edgePad = 0 }) {
         style={{
           fontWeight: "700",
           fontSize: 16,
-          color: box.owner === "P1" ? "blue" : box.owner === "P2" ? "red" : "#000",
+          color: box.owner === "P" ? "blue" : box.owner === "C" ? "red" : "#000",
         }}
       >
         {box.owner}
